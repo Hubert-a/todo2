@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/kelly-sikkema--1_RZL8BGBM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+}
+.form-container{
+    /* position: relative; */
+    top: 12vh;
+    background:#647bff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+a{
+    color: white;
+}

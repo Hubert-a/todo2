@@ -1,0 +1,23 @@
+/* .dash{
+    width: 180px;
+    height: 50px;
+    /* left: 29px;
+    top: 241px;  */
+   /* background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #F7C4A7;
+    box-sizing: border-box;
+    border-radius: 40px;
+    /* padding:10px; */
+   /* margin-bottom: 10px;
+}*/
+/* position: absolute; */
+
+
+.image{
+    height: 40px;
+    width:40px;
+}
+.profile{
+    height: 150px;
+    width: 150px;
+}
