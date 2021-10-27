@@ -23,19 +23,19 @@
 
                             <form action="dashboard.php">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" placeholder="Hubert Amarfio">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Hubert Amarfio" required>
                                     <label for="floatingInput">Name</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                     <label for="floatingInput">Email address</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                                     <label for="floatingPassword">Password</label>
                                 </div>
                                 <div class="form-floating mb-5">
-                                    <input type="password" class="form-control" id="floatingInput" placeholder="Confirm Password">
+                                    <input type="password" class="form-control" id="floatingInput" placeholder="Confirm Password" required>
                                     <label for="floatingInput">Confirm Password</label>
                                 </div>
                                 <div class="d-grid gap-2 mb-5">
