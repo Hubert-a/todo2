@@ -83,7 +83,7 @@
                         </div>
                         
                             <div class="d-flex justify-content-around mt-5 mb-5">
-                                <button class="btn btn-secondary button" type="button" id="all" style="width: 10%;">All</button>
+                                <button class="btn btn-secondary" type="button" id="all" style="width: 10%;">All</button>
                                 <button class="btn btn-secondary" type="button" id="progress">In Progress</button>
                                 <button class="btn btn-secondary" type="button" id="complete">Completed</button>
                             </div>
