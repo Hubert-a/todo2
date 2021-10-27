@@ -35,7 +35,7 @@
                         <p class="text-center mb-4">Please enter your details below to continue</p>
 
                     
-                        <form action="dashboard.php" class="form-container">
+                        <form action="dashboard.php">
                         <!-- <img src="./assets/images/todo.png" alt="logo0" class="img-fluid mb-4">  -->
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
