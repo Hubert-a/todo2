@@ -17,12 +17,12 @@
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="container">
                         <img src="./assets/images/todo.png" class="img-fluid mb-5 py-3">
-                            <p class="fs-1 fw-bold mx-5 px-4 mb-4 fst-italic text-white" style="color: white; font-family:Roboto;">
-                                Easily</br>
-                                Manage Your</br>
-                                Daily Tasks</p>
-                            <p class="fs-5 fw-light mx-5 px-4 mb-5 text-white" style="font-family:Roboto;"><small>Overwhelmed by your daily tasks?</br>
-                                Get them under controll with todolist!</small></p>
+                            <pre class="fs-1 fw-bold mx-5 px-4 mb-4 fst-italic text-white" style="color: white; font-family:Roboto;">
+Easily
+Manage Your
+Daily Tasks</pre>
+                            <pre class="fs-5 fw-light mx-5 px-4 mb-5 text-white" style="font-family:Roboto;"><small>Overwhelmed by your daily tasks?
+Get them under controll with todolist!</small></pre>
                             <p class="fs-5 fw-light mx-5 px-4 fst-italic mb-4 text-white" style="font-family:Roboto;"><small>Get notified with each task?(Optional)
                                 </small></p>
                                 <form action="notification.php" method="post">
