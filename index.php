@@ -3,73 +3,100 @@
     <head>
         <meta charset="utf-8"> 
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
-        <title>MyDay | Welcome page</title>
+        <title>MyDay | Welcome pape</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="../Todo/assets/css/index.css">
+        <link rel="stylesheet" href="./assets/css/index2.css">
     </head>
 
     <body>
-        <br>
-        <br>
-        <section class="container" style="background-color: #647bff;">
+
+        <section>
             <div class="row">
-                <div class="col-md-6 d-flex align-items-center">
-                    <div class="container">
-                        <img src="./assets/images/todo.png" class="img-fluid mb-5 py-3">
-                            <p class="fs-1 fw-bold mx-5 px-4 mb-4 fst-italic text-white" style="color: white; font-family:Roboto;">
-                                Easily</br>
-                                Manage Your</br>
-                                Daily Tasks</p>
-                            <p class="fs-5 fw-light mx-5 px-4 mb-5 text-white" style="font-family:Roboto;"><small>Overwhelmed by your daily tasks?</br>
-                                Get them under controll with todolist!</small></p>
-                            <p class="fs-5 fw-light mx-5 px-4 fst-italic mb-4 text-white" style="font-family:Roboto;"><small>Get notified with each task?(Optional)
-                                </small></p>
-                                <form action="notification.php" method="post">
-                                    <div class="row g-1">
-                                        <div class="col-md-6 mx-5 px-3">
-                                            <div class="form-floating mb-3">
-                                                <input type="email" class="form-control border-0" id="floatingInput" placeholder="name@example.com">
-                                                <label for="floatingInput">Email address</label>
-                                            </div>
-                                            <button type="submit" class="btn mb-5" style="background-color: #959EE9;">
-                                                <span>Get notified</span>
-                                                <span><i class="far fa-bell"></i></span>
-                                            </button>
-                                        
-                                        </div>
-                                    </div>
-                                </form>
+                <div class="col-md-6 bg-danger">
+                <img src="" alt="logo" class="img-fluid mb-5 py-3">
+                    <div class="d-flex justify-content-start">
+                        <img src="./assets/images/undraw_Add_notes_re_ln36-removebg.png" alt="" class="img-fluid " >
+                        <!-- <img src="./assets/images/undraw_Collaboration_re_vyau-removebg-preview.png" alt="" class="bg-dark"> -->
                     </div>
+                    <div class="container ">
+                            <p class="h3 text-center text-white">Easily Manage Your Daily Tasks</p>
+                            <p class="text-center text-white fst-italic">Overwhelmed by your daily tasks?<br>
+                            Get them under controll with todolist!</p>
+                    </div> 
                 </div>
-                <div class="col-md-4">
-                    <form action="dashboard.php" class="form-container">
-                        <img src="./assets/images/todo.png" alt="logo0" class="img-fluid mb-4"> 
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp"required>
+
+                <div class="col-md-6 bg-light">
+                    <div class="container">
+                        <h3 class="mt-5">Get Started...</h3>
+                        <p class="mb-5"><small>Don’t have an account? <a href="./signin.php" class="text-danger ms-3"  style="text-decoration: none;">Register</a></small></p>
+
+                        <p class="h4 text-center mb-3">Login Now</p>
+                        <p class="text-center mb-4">Please enter your details below to continue</p>
+
+                    
+                        <form action="dashboard.php" class="form-container">
+                        <!-- <img src="./assets/images/todo.png" alt="logo0" class="img-fluid mb-4">  -->
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
                         </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                       
+
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                            </div>
+                              <small><p class="text-end"><a href="recovery.php">Forgot Password?</a></p></small>
+                            
+                        
+                        <div class="d-grid gap-2 mb-5">
+                        <button type="submit" class="btn btn-danger rounded-pill btn-block">LOGIN</button>
                         </div>
                         <div class="d-grid gap-2 mb-3">
-                        <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-light d-flex justify-content-start py-2">
+                                <span class="me-4">
+                                    <img src="./assets/images/google.png" alt="" class="images">
+                                </span>
+                            
+                                <span>
+                                    Sign up with Google
+                                </span>
+
+                            </button>
+
+                            <button type="button" class="btn btn-light d-flex justify-content-start">
+                                <span class="me-4">
+                                <img src="./assets/images/facebook.png" alt="" class="images">
+                                </span>
+                                <span>
+                                    Sign up with Facebook
+                                </span>
+                            </button>
                         </div>
-                        <small><p class="text-center">Don’t have an account? <a href="signin.php">Sign up</a></p></small>
-                        <small><p class="text-center"><a href="recovery.php">Forgot Password </a></p></small>
+                        </div>
                       </form>
+                    
+
+                    </div>
                 </div>
             </div>
-        
         </section>
 
 
-        <footer>
+
+
+
+
+
+
+
+    <footer>
             <div class="container d-flex justify-content-center py-3 text-white">
                 &copy; copyright 2021
             </div>    

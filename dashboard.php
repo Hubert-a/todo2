@@ -27,36 +27,36 @@
                             <span class="me-3">
                             <i class="fas fa-tachometer-alt"></i>
                             </span>
-                            <span class="text-white fw-bold">Dashboard</span>
+                            <span class="text-white fs-6">Dashboard</span>
                         </button>
                         <button class="btn d-flex justify-content-start rounded-pill py-2 mb-2" style="width:100%; background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.1);" type="button">
                             <span class="me-3">
                             <i class="fas fa-plus"></i>
                             </span>
-                            <span class="text-white fw-bold" >Create Task</span>
+                            <span class="text-white fs-6" >Create Task</span>
                         </button>
                         <button class="btn d-flex justify-content-start flex-wrap align-items-center rounded-pill py-2 mb-2" style="width:100%;background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.1);" type="button">
                             <span class="me-3">
                             <i class="fas fa-plus"></i>
                             </span>
-                            <span class="text-white fw-bold">New Collection</span>
+                            <span class="text-white fs-6">New Collection</span>
                         </button>
                         <button class="btn d-flex justify-content-start rounded-pill py-2 mb-2" style="width:100%;background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.1);" type="button">
                             <span class="me-3">
                             <i class="fas fa-user"></i>
                             </span>
-                            <span class="text-white fw-bold">View Profile</span>
+                            <span class="text-white fs-6">View Profile</span>
                         </button>
                         <button class="btn d-flex justify-content-start mb-5 rounded-pill py-2 mb-2" style="width:100%;background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.1);" type="button">
                             <span class="me-3"> 
                             <i class="fas fa-cog"></i>
                             </span>
-                            <span class="text-white fw-bold">Settings</span>
+                            <span class="text-white fs-6">Settings</span>
                         </button>
 
                         <a href="./index.php" style="text-decoration: none;">
                         <button class="btn d-flex justify-content-center border rounded-pill" style="background-color: white; width:100%;" type="button">
-                            <span class="me-3 fw-bold" style="color: #E12F2F;">LOGOUT</span>
+                            <span class="me-3 fs-6" style="color: #E12F2F;">LOGOUT</span>
                             <span >
                             <i class="fas fa-sign-out-alt"></i> 
                             </span>
@@ -69,7 +69,7 @@
 
                     <div class="col-md-9 py-4">
                         <div class="container bg-light py-4 border rounded d-flex justify-content-start align-items-center">
-                            <img src="./assets/images/undraw_profile_pic_ic5t.png" alt="profile" class="profile me-4">
+                            <img src="./assets/images/undraw_profile_pic_ic5t-removebg-preview.png" alt="profile" class="profile me-4">
 
                             <div class="d-flex flex-column">
                                 <h2>Hubert Amarfio</h2>
@@ -109,7 +109,7 @@
                                 <p >Please enter the details below to continue</p>
 
                             </div>
-                            
+
                         </div>
                             <hr class="bg-danger" style="width:600px">
                     </div>  
