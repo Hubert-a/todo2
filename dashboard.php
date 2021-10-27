@@ -33,13 +33,13 @@
                             <span class="me-3">
                             <i class="fas fa-plus"></i>
                             </span>
-                            <span class="text-white fs-6" >Create Task</span>
+                            <span class="text-white fs-6" >Create New Task</span>
                         </button>
                         <button class="btn d-flex justify-content-start flex-wrap align-items-center rounded-pill py-2 mb-2" style="width:100%;background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.1);" type="button">
                             <span class="me-3">
                             <i class="fas fa-plus"></i>
                             </span>
-                            <span class="text-white fs-6">New Collection</span>
+                            <span class="text-white fs-6">Add a Collection</span>
                         </button>
                         <button class="btn d-flex justify-content-start rounded-pill py-2 mb-2" style="width:100%;background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.1);" type="button">
                             <span class="me-3">

@@ -6,7 +6,7 @@
         <title>MyDay | Welcome pape</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="./assets/css/index2.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
     </head>
 
     <body>
@@ -21,15 +21,15 @@
                     </div>
                     <div class="container ">
                             <p class="h3 text-center text-white">Easily Manage Your Daily Tasks</p>
-                            <p class="text-center text-white fst-italic">Overwhelmed by your daily tasks?<br>
-                            Get them under controll with todolist!</p>
+                            <pre class="text-center text-white">Overwhelmed by your daily tasks?
+     Get them under controll with todolist!</pre>
                     </div> 
                 </div>
 
                 <div class="col-md-6 bg-light">
                     <div class="container">
                         <h3 class="mt-5">Get Started...</h3>
-                        <p class="mb-5"><small>Don’t have an account? <a href="./signin.php" class="text-danger ms-3"  style="text-decoration: none;">Register</a></small></p>
+                        <p class="mb-5"><small>Don’t have an account? <a href="./signin.php" class="text-danger ms-2"  style="text-decoration: none;">Register</a></small></p>
 
                         <p class="h4 text-center mb-3">Login Now</p>
                         <p class="text-center mb-4">Please enter your details below to continue</p>
