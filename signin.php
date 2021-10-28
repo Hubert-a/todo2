@@ -6,6 +6,7 @@
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
             <link rel="stylesheet" href="./assets/css/signin.css">
+            <script src="./assets/js/password.js"></script>
             <title>Sign in</title>
         </head>
 
@@ -43,7 +44,7 @@
                                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                                         <label for="floatingPassword">Password</label>
                                         <span>
-                                            <img src="./assets/images/view.png" alt="view" class="view fa">
+                                            <img src="./assets/images/view.png" alt="view" class="view fa" onclick="toggle()">
                                         </span>
                                 </div>
                             
@@ -52,7 +53,7 @@
                                     <input type="password" class="form-control" id="floatingInput" placeholder="Confirm Password" required>
                                     <label for="floatingInput">Confirm Password</label>
                                     <span>
-                                        <img src="./assets/images/view.png" alt="view" class="view fa">
+                                        <img src="./assets/images/view.png" alt="view" class="view fa" onclick="toggle()">
                                     </span>
                                 </div>
                                 <div class="d-grid gap-2 mb-5">

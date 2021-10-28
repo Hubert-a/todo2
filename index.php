@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/index.css">
         <link rel="stylesheet" href="./assets/css/signin.css">
+        <script src="./assets/js/password.js"></script>
+
     </head>
 
     <body>
@@ -43,7 +45,7 @@
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                             <label for="floatingPassword">Password</label>
                             <span>
-                                <img src="./assets/images/view.png" alt="view" class="view fa">
+                                <img src="./assets/images/view.png" alt="view" class="view" id="view" onclick="toggle()">
                             </span>
                         </div>
                        
