@@ -5,6 +5,7 @@
             <meta content="initial-scale=1.0, width=device-width" name="viewport" />
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+            <link rel="stylesheet" href="./assets/css/signin.css">
             <title>Sign in</title>
         </head>
 
@@ -38,13 +39,21 @@
                                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                     <label for="floatingInput">Email address</label>
                                 </div>
-                                <div class="form-floating mb-3">
-                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
-                                    <label for="floatingPassword">Password</label>
+                                <div class="form-floating mb-3 " style="position: relative;">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                                        <label for="floatingPassword">Password</label>
+                                        <span>
+                                            <img src="./assets/images/view.png" alt="view" class="view fa">
+                                        </span>
                                 </div>
+                            
+                                   
                                 <div class="form-floating mb-5">
                                     <input type="password" class="form-control" id="floatingInput" placeholder="Confirm Password" required>
                                     <label for="floatingInput">Confirm Password</label>
+                                    <span>
+                                        <img src="./assets/images/view.png" alt="view" class="view fa">
+                                    </span>
                                 </div>
                                 <div class="d-grid gap-2 mb-5">
                                     <button type="submit" class="btn btn-danger rounded-pill btn-block">REGISTER</button>

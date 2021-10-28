@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="stylesheet" href="./assets/css/signin.css">
     </head>
 
     <body>
@@ -41,6 +42,9 @@
                         <div class="form-floating mb-3">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                             <label for="floatingPassword">Password</label>
+                            <span>
+                                <img src="./assets/images/view.png" alt="view" class="view fa">
+                            </span>
                         </div>
                        
 

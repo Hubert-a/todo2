@@ -6,7 +6,7 @@
             <title>MyDay | Sign up </title>
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
-            <link rel="stylesheet" href="./assets/css/signin1.css">
+            <link rel="stylesheet" href="./assets/css/signin1c.css">
         </head>
     <body class="container">
         <br>
