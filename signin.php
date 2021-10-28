@@ -12,12 +12,20 @@
         <body>
             <div class="row">
                 <div class="col-md-6 bg-danger">
+                <div class="container ">
+                    <div class="text-center">
+                        <img src="./assets/images/logo.png" alt="" class="align-items-baseline"style="width: 70%; height:70%" >
+                    </div>
+                            <p class="h3 text-center text-white">Easily Manage Your Daily Tasks</p>
+                            <pre class="text-center text-white">Overwhelmed by your daily tasks?
+     Get them under controll with todolist!</pre>
+                    </div> 
 
                 </div>
                 <div class="col-md-6 bg-light">
                     <div class="container">
                             <h3 class="mt-5">Get Started...</h3>
-                            <p class="mb-5"><small>Already have an account? <a href="./signin.php" class="text-danger ms-1"  style="text-decoration: none;">Login</a></small></p>
+                            <p class="mb-5"><small>Already have an account? <a href="./index.php" class="text-danger ms-1"  style="text-decoration: none;">Login</a></small></p>
                             <p class="h4 text-center mb-3">Register Now</p>
                             <p class="text-center mb-4">Please enter your details below to continue</p>
 

@@ -10,14 +10,11 @@
     </head>
 
     <body>
-
         <section>
             <div class="row">
                 <div class="col-md-6 bg-danger">
-                <img src="" alt="logo" class="img-fluid mb-5 py-3">
-                    <div class="d-flex justify-content-start">
-                        <img src="./assets/images/undraw_Add_notes_re_ln36-removebg.png" alt="" class="img-fluid " >
-                        <!-- <img src="./assets/images/undraw_Collaboration_re_vyau-removebg-preview.png" alt="" class="bg-dark"> -->
+                    <div class="text-center">
+                        <img src="./assets/images/logo.png" alt="" class="align-items-baseline"style="width: 70%; height:70%" >
                     </div>
                     <div class="container ">
                             <p class="h3 text-center text-white">Easily Manage Your Daily Tasks</p>
