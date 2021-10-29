@@ -15,7 +15,7 @@
     <body>
         <section>
             <div class="row">
-                <div class="col-md-6 bg-danger">
+                <div class="col-md-8 bg-danger">
                     <div class="text-center">
                         <img src="./assets/images/logo.png" alt="" class="align-items-baseline"style="width: 70%; height:70%" >
                     </div>
@@ -26,16 +26,16 @@
                     </div> 
                 </div>
 
-                <div class="col-md-6 bg-light">
+                <div class="col-md-4 bg-light">
                     <div class="container">
                         <h3 class="mt-5">Get Started...</h3>
-                        <p class="mb-5"><small>Don’t have an account? <a href="./signin.php" class="text-danger ms-2"  style="text-decoration: none;">Register</a></small></p>
+                        <p class="mb-5"><small>Don’t have an account? <a href="./views/signin.php" class="text-danger ms-2"  style="text-decoration: none;">Register</a></small></p>
 
                         <p class="h4 text-center mb-3">Login Now</p>
                         <p class="text-center mb-4">Please enter your details below to continue</p>
 
                     
-                        <form action="dashboard.php">
+                        <form action="./includes/login.inc.php" method="POST">
                         <!-- <img src="./assets/images/todo.png" alt="logo0" class="img-fluid mb-4">  -->
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
@@ -58,7 +58,7 @@
                             
                         
                         <div class="d-grid gap-2 mb-5">
-                        <button type="submit" class="btn btn-danger rounded-pill btn-block">LOGIN</button>
+                        <button type="submit"  name="submit" class="btn btn-danger rounded-pill btn-block">LOGIN</button>
                         </div>
                         <div class="d-grid gap-2 mb-3">
                         <div class="btn-group" role="group" aria-label="Basic example">
