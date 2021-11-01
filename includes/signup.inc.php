@@ -1,8 +1,7 @@
 <?php
 
 
-if(isset($_POST["sumit"])){
-    
+if(isset($_POST["submit"])){
     $name = $_POST["name"];
     $email = $_POST["email"];
     $pswd = $_POST["pswd"];
@@ -21,12 +20,15 @@ if(isset($_POST["sumit"])){
     }
 
     if (emailExists($conn, $email)!==false){
-    header("location: ../views/signin.php?error=emailtaken");
+    header("location: ../views/signin.php?error=emailexists");
     exit();
     }
 
-    createUser($conn, $name, $email, $pswd);
+    createUser($conn, $name, $email, $pswd); 
+    
 }
 else {
     header("location: ../views/signin.php");
+    exit();
+
 }

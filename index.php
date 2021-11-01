@@ -1,11 +1,14 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8"> 
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
         <title>MyDay | Welcome pape</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/index.css">
         <link rel="stylesheet" href="./assets/css/signin.css">
         <script src="./assets/js/password.js"></script>
@@ -38,11 +41,11 @@
                         <form action="./includes/login.inc.php" method="POST">
                         <!-- <img src="./assets/images/todo.png" alt="logo0" class="img-fluid mb-4">  -->
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                            <input type="email" class="form-control" name= "email" id="floatingInput" placeholder="name@example.com" required>
                             <label for="floatingInput">Email address</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                            <input type="password" class="form-control" name="pswd" id="floatingPassword" placeholder="Password" required>
                             <label for="floatingPassword">Password</label>
                             <span>
                                 <img src="./assets/images/view.png" alt="view" class="view" id="view" onclick="toggle()">
@@ -86,6 +89,16 @@
                       </form>
                     
 
+                <?php
+                    if(isset($_GET["error"])){
+                        if ($_GET["error"]=="invalidEmail"){
+                            echo "<p>Choose a proper Email</p>";
+                        }
+                        else if($_GET["error"]=="wronglogin"){
+                            echo "<p>Incorrect credentials!</p>"; 
+                        }
+                    }
+                ?>
                     </div>
                 </div>
             </div>

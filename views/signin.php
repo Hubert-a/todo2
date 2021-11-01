@@ -60,6 +60,26 @@
                                     <button type="submit" name="submit" class="btn btn-danger rounded-pill btn-block">REGISTER</button>
                                 </div>
                             </form>    
+
+                            <?php
+                    if(isset($_GET["error"])){
+                        if ($_GET["error"]=="invalidEmail"){
+                            echo "<p>Choose a proper Email</p>";
+                        }
+                        else if($_GET["error"]=="passwordsdontmatch"){
+                            echo "<p>Passwords don't match</p>"; 
+                        }
+                        else if($_GET["error"]=="stmtfailed"){
+                            echo "<p>Something went wrong, try again!</p>"; 
+                        }
+                        else if($_GET["error"]=="emailexists"){
+                            echo "<p>Email already exists!</p>"; 
+                        }
+                        else if($_GET["error"]=="none"){
+                            echo "<p>Signup succesful</p>"; 
+                        }
+                    } 
+                ?>
                     </div>
                 </div>
             </div>
