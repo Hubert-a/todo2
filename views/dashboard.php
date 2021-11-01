@@ -4,9 +4,9 @@
         <meta charset="utf-8"> 
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
         <title>MyDay | Welcome page</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="./assets/css/dashboard.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/fontawesome/all.min.css">
+        <link rel="stylesheet" href="../assets/css/dashboard.css">
         
     </head>
     <body>
@@ -19,7 +19,7 @@
                     <h3 class="text-white">TODO</h3>
                     </div> -->
                     <!-- End of logo -->
-                    <img src="./assets/images/todo 2.png" alt="todo" class="img-fluid mb-4">        
+                    <img src="../assets/images/todo 2.png" alt="todo" class="img-fluid mb-4">        
 
                     <!-- start of buttons -->
                     <div class="container mt-5">
@@ -54,7 +54,7 @@
                             <span class="text-white fs-6">Settings</span>
                         </button>
 
-                        <a href="./index.php" style="text-decoration: none;">
+                        <a href="../includes/logout.inc.php" style="text-decoration: none;">
                         <button class="btn d-flex justify-content-center border rounded-pill" style="background-color: white; width:100%;" type="button">
                             <span class="me-3 fs-6" style="color: #E12F2F;">LOGOUT</span>
                             <span >
@@ -69,7 +69,7 @@
 
                     <div class="col-md-9 py-4">
                         <div class="container bg-light py-4 border rounded d-flex justify-content-start align-items-center">
-                            <img src="./assets/images/undraw_profile_pic_ic5t-removebg-preview.png" alt="profile" class="profile me-4">
+                            <img src="../assets/images/undraw_profile_pic_ic5t-removebg-preview.png" alt="profile" class="profile me-4">
 
                             <div class="d-flex flex-column">
                                 <h2>Hubert Amarfio</h2>
@@ -134,7 +134,7 @@
                 &copy; copyright 2021
             </div>    
         </footer>
-        <script src="bootstrap js/jquery.min.js"></script>
-        <script src="bootstrap js/bootstrap.min.js"></script>
+        <script src="../bootstrap js/jquery.min.js"></script>
+        <script src="../bootstrap js/bootstrap.min.js"></script>
     </body>
 </html>
