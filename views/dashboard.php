@@ -5,7 +5,7 @@
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
         <title>MyDay | Welcome page</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../assets/fontawesome/all.min.css">
+        <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="../assets/css/dashboard.css">
         
     </head>

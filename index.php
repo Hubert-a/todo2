@@ -57,7 +57,7 @@ session_start();
                               <input type="checkbox" class="form-check-input" id="exampleCheck1">
                               <label class="form-check-label" for="exampleCheck1">Remember me</label>
                             </div>
-                              <small><p class="text-end"><a href="recovery.php">Forgot Password?</a></p></small>
+                              <small><p class="text-end"><a href="./views/  recovery.php">Forgot Password?</a></p></small>
                             
                         
                         <div class="d-grid gap-2 mb-5">
