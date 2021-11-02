@@ -72,7 +72,13 @@
                             <img src="../assets/images/undraw_profile_pic_ic5t-removebg-preview.png" alt="profile" class="profile me-4">
 
                             <div class="d-flex flex-column">
-                                <h2>Hubert Amarfio</h2>
+
+                                <?php
+                                if(isset($_SESSION["name"])){
+                                    echo "<h2>Hello " . $_SESSION["name"] ."</h2>";
+                                }
+                                ?>
+                                <!-- <h2>Hubert Amarfio</h2> -->
                                 <p>Web Developer, Union Systems Global</p>
                             </div>
                             <div class="d-flex ms-auto mb-auto">
