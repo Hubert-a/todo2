@@ -52,12 +52,13 @@ session_start();
                             </span>
                         </div>
                        
-
-                            <div class="mb-3 form-check">
+                            <div class="d-flex justify-content-between">
+                            <div class="mb-3 form-check d-flex justify-content-between">
                               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                              <label class="form-check-label ms-1" for="exampleCheck1">Remember me</label>
                             </div>
-                              <small><p class="text-end"><a href="./views/  recovery.php">Forgot Password?</a></p></small>
+                            <small><p class="text-end"><a href="./views/  recovery.php">Forgot Password?</a></p></small>
+                            </div>
                             
                         
                         <div class="d-grid gap-2 mb-5">

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"> 
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
-        <title>MyDay | Welcome page</title>
+        <title>MyDay | Welcome</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="../assets/css/dashboard.css">
@@ -82,9 +82,65 @@
                                 <p>Web Developer, Union Systems Global</p>
                             </div>
                             <div class="d-flex ms-auto mb-auto">
-                                <button type="button" class="btn bg-danger rounded-pill">
+                                <button type="button" class="btn bg-danger rounded-pill" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     Edit Profile    
                                 </button>
+
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Edit Profile</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <form action="#">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                               
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" aria-describedby="emailHelp">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput2" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput2" aria-describedby="emailHelp">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput3" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput3" aria-describedby="emailHelp">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput4" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput4" aria-describedby="emailHelp">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput5" class="form-label">Gender</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput5" aria-describedby="emailHelp">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput6" class="form-label">Date of birth</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput6" aria-describedby="emailHelp">
+                                
+                            </div>
+                            
+            
+                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save Changes</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>   
                         </div>
                         
@@ -126,13 +182,6 @@
         
 
         
-
-
-
-
-
-
-
 
 
         <footer>
