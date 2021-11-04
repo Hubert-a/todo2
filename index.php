@@ -93,7 +93,18 @@ session_start();
                 <?php
                     if(isset($_GET["error"])){
                         if ($_GET["error"]=="invalidEmail"){
-                            echo "<p>Choose a proper Email</p>";
+                            echo "<div class='modal' tabindex='-1'>
+                            <div class='modal-dialog'>
+                              <div class='modal-content'>
+                                <div class='modal-body'>
+                                  <p>Choose a proper Email.</p>
+                                </div>
+                                <div class='modal-footer'>
+                                  <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>";
                         }
                         else if($_GET["error"]=="wronglogin"){
                             echo "<p>Incorrect credentials!</p>"; 

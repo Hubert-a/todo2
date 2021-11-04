@@ -74,9 +74,9 @@
                             <div class="d-flex flex-column">
 
                                 <?php
-                                if(isset($_SESSION["name"])){
-                                    echo "<h2>Hello " . $_SESSION["name"] ."</h2>";
-                                }
+                                    if(isset($_SESSION["email"])){
+                                        echo  $_SESSION["email"];
+                                    }
                                 ?>
                                 <!-- <h2>Hubert Amarfio</h2> -->
                                 <p>Web Developer, Union Systems Global</p>
@@ -94,42 +94,40 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
+
+
                                     <form action="#">
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                               
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" aria-describedby="emailHelp">
-                                
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput2" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput2" aria-describedby="emailHelp">
-                                
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput3" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput3" aria-describedby="emailHelp">
-                                
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput4" class="form-label">Phone Number</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput4" aria-describedby="emailHelp">
-                                
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput5" class="form-label">Gender</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput5" aria-describedby="emailHelp">
-                                
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput6" class="form-label">Date of birth</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput6" aria-describedby="emailHelp">
-                                
-                            </div>
+                                        
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput" class="form-label">Image</label>
+                                            <input type="file" class="form-control file" id="exampleFormControlInput" aria-describedby="emailHelp">
+                                        
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" aria-describedby="emailHelp">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput3" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput3" aria-describedby="emailHelp">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput4" class="form-label">Phone Number</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput4" aria-describedby="emailHelp">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput5" class="form-label">Gender</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput5" aria-describedby="emailHelp">
+                                            
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput6" class="form-label">Date of birth</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput6" aria-describedby="emailHelp">
+                                            
+                                        </div>
                             
             
                         </form>

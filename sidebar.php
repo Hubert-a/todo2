@@ -2,10 +2,8 @@
 <html lang="en">
     <head>
         <title>sidebar</title>
-        <link rel="stylesheet" href="./sidebar.css">
-        <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
-       
-
+        <link rel="stylesheet" href="./assets/css/sidebar.css">
+        <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css"> 
     </head>
     <body>
         <div class="sidebar">
@@ -28,28 +26,28 @@
                     <i class="fas fa-plus"></i>
                     <span class="links_name">Create New Tasks</span>
                     </a>
-                    <span class="tooltip">Dashboard</span>
+                    <span class="tooltip">Create New Tasks</span>
                 </li>
                 <li>
                     <a href="#">
                     <i class="fas fa-plus"></i>
                     <span class="links_name">Add a Collection</span>
                     </a>
-                    <span class="tooltip">Dashboard</span>
+                    <span class="tooltip">Add a Collection</span>
                 </li>
                 <li>
                     <a href="#">
                     <i class="fas fa-user"></i>
                     <span class="links_name">View Profile</span>
                     </a>
-                    <span class="tooltip">Dashboard</span>
+                    <span class="tooltip">View Profile</span>
                 </li>
                 <li>
                     <a href="#">
                     <i class="fas fa-cog"></i>
                     <span class="links_name">Settings</span>
                     </a>
-                    <span class="tooltip">Dashboard</span>
+                    <span class="tooltip">Settings</span>
                 </li>
             </ul>
             <div class="profile_content">
