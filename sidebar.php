@@ -17,7 +17,7 @@
                 <li>
                     <a href="#">
                     <i class="fas fa-tachometer-alt"></i>
-                    <span class="links_name">Dashboard</span>
+                    <!-- <span class="links_name">Dashboard</span> -->
                     </a>
                     <span class="tooltip">Dashboard</span>
                 </li>
