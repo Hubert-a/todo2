@@ -6,62 +6,11 @@
         <title>MyDay | Welcome page</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="../index1.css">
-        <style>
-          h5{
-            font-family: Arial, Helvetica, sans-serif;
-            font-style: italic;
-            font-weight: bold;
-            font-size: 60px;
-          }
-          .p{
-            font-size: 20px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-          }
-          .carousel-item{
-              height: 90vh;
-              min-height: 300px;
-              background:no-repeat scroll center scroll;
-              -webkit-background-size:cover;
-              background-size: cover;
-          }
-
-          .carousel-item::before{
-              content: "";
-              display: block;
-              position: absolute;
-              top: 0;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              background: #000;
-              opacity: 0.7;
-          }
-          .carousel-inner{
-            width:50vw;
-            position: relative;
-            right: 12px;
-          }
-          .img{
-            height: 90vh;
-          }
-          .carousel-caption {
-            bottom: 10%;
-          }
-          /* .form-container{
-    position: relative;
-     height: 82vh ;
-    background:rgb(245, 222, 179);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #000;
-          }*/
-
-          /* style="background-color: #647bff; height:90vh" */
-        </style>
+        <link rel="stylesheet" href="../assets/css/index1.css">
     </head>
 
     <body>
+        <br>
         <br>
         <div class="container bg-transparent" >
             <div class="row">
@@ -95,14 +44,6 @@
                             </div>
                             </div>
                         </div>
-                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button> -->
                     </div>
                 </div>
                 
@@ -110,8 +51,12 @@
           
                 <div class="col-md-5 bg-light" >
                     <div class="mt-5 container">
-                    <form action="dashboard.php" class="form-container">
-                        <!-- <img src="../assets/images/todo.png" alt="logo" class="img-fluid mb-4">  -->
+                    <form action="" class="form-container">
+                        <h3 class="mt-5 ">Hello...</h3>
+                        <p class="mb-4 message"><small>Don’t have an account? 
+                          <a href="#" class=" ms-2"  style="text-decoration: none;">Register</a></small></p>
+                          <p class="h4 text-center mb-3">Login Now</p>
+                        <p class="text-center mb-4">Please enter your details below to continue</p>
                         <div class="form-floating mb-3">
                           <input type="email" class="form-control" id="email" placeholder="name@example.com">
                           <label for="email">Email address</label>
@@ -127,12 +72,16 @@
                         <div class="d-grid gap-2 mb-3">
                         <button type="submit" class="btn btn-block" style="background-color: #647bff;">Log in</button>
                         </div>
-                        <small><p class="text-center message">Don’t have an account? <a href="#">Sign up</a></p></small>
-                        <small><p class="text-center"><a href="#">Forgot Password </a></p></small>
+                        <small><p class="text-center"><a href="#" style="text-decoration:none">Forgot Password </a></p></small>
                     </form>
                     </div>
                     <div class="mt-2 container" >
                         <form action="" class="form-container"style="display: none;">
+                        <h3 class="mt-5 ">Welcome...</h3>
+                        <p class="mb-4 message"><small>Already have an account?
+                        <a href="#" class=" ms-2"  style="text-decoration: none;">Login</a></small></p>
+                          <p class="h4 text-center mb-3">Signup Now</p>
+                        <p class="text-center mb-4">Please enter your details below to continue</p>
                         <div class="mb-2 form-floating">
                           <input type="text" class="form-control mb-2" id="name" placeholder="Jonas Markin">
                           <label for="name" class="form-label">Name</label>
@@ -160,27 +109,22 @@
                         <div class="d-grid gap-2 mb-2">
                         <button type="submit" class="btn btn-block"style="background-color: #647bff;">Sign up</button>
                         </div>
-                        <small><p class="text-center message">Already have an account? <a href="#">Login </a></p></small>
 
                         </form>
                     </div>
                 </div>
             </div>
         
-        </div>
+          </div>
+          
 
 
-        <footer>
-            <div class="container d-flex justify-content-center py-3 text-white">
-                &copy; copyright 2021
-            </div>    
-        </footer>
         <script src="../bootstrap js/jquery.min.js"></script>
         <script src="../bootstrap js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
                 <script>
                     $('.message a').click(function(){
-                        $('form').toggle(1000);
+                        $('form').animate({height:"toggle",opacity:"toggle"}, "slow");
                     });
                 </script>
     </body>
